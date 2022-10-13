@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
  * main- A function that print text
  *
- * Return: 0 ends the function(successful)
+ * Return: 0 ends the function
  */
 int main(void) 
 {
