@@ -1,1 +1,1 @@
-C programming that use puts function
+using the printf function
