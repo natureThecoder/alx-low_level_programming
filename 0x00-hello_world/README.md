@@ -1,1 +1,1 @@
-using the printf function
+C program that prints with printf function
