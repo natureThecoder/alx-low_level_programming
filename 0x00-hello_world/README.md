@@ -1,1 +1,1 @@
-A script that generates the assembly code (Intel syntax)
+readme for task 8
