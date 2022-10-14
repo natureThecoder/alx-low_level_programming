@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main- is a function for the program
+ * main- Entry
  *
- * Return:Zero if no error, non-zero value iof errors
+ * Return: Always 0
  */
 int main(void)
 {
