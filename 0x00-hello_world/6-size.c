@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main- Print the size of many var types
+ * main- Print the sizeof many var types
  *
- * Return: 0 ends the main function
+ * Return: zero if no error, non-zero value if errors
  */
 int main(void)
 {
