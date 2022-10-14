@@ -1,1 +1,1 @@
-C program that prints the size of various types
+C program that prints the size of various types on the computer it is compiled
