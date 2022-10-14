@@ -1,1 +1,1 @@
-size of var type
+readme for task6
