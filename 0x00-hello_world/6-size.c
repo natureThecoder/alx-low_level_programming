@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main-entry point for the program
+ * main- Print the size of many var types
  *
- * Return:0 if no errors, return non zero if errors
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
