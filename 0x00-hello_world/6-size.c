@@ -2,7 +2,7 @@
 /**
  * main- Print the size of many var types
  *
- * Return: Always 0 (Success)
+ * Return: 0 ends the main function
  */
 int main(void)
 {
