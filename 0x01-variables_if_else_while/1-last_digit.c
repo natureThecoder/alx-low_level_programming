@@ -2,13 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int n;
+
 	int a;
 
 	srand(time(0));
@@ -19,7 +20,7 @@ int main(void)
 	if (a == 0)
 		printf("last digit of %d is %d and is 0\n", n, a);
 	if (a < 6 && a != 0)
-		printf("last digit of %d is %d ans is less than 6 and not 0\n", n, a);
+		printf("last digit of %d is %d and is less than 6 and not 0\n", n, a);
 	return (0);
 }
 	
