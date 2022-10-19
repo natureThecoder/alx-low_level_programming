@@ -1,6 +1,9 @@
 #include "main.h"
 /**
- * time_table - prints the 9 times table
+ * time_table - a function that prints the 9 times table, starting with 0
+ * num = row, mult = column, prod = digits of current result
+ * Return: times table
+ * add extra space past single digit
  */
 void times_table(void)
 {
