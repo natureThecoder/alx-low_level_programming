@@ -3,7 +3,7 @@
 /**
  * print_numbers - print from 0 to 9
  *
- * Return: void
+ * Return: Always 0
  */
 void print_numbers(void)
 {
@@ -11,8 +11,8 @@ void print_numbers(void)
 
 	for (c = 48; c <= 58; c++)
 	{
-		_putchar(c);
+	_putchar(c);
 	}
 
-	_putchar(10);
+	_putchar('\n');
 }
