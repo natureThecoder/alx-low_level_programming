@@ -1,2 +1,2 @@
-0x07-pointers_arrays_strings task
+a file that contains the password for the crackme2 executable.
 
