@@ -33,7 +33,7 @@ int sqrt_manual(int n, int i)
 {
 	if (i * i == n)
 	{
-		return (1);
+		return (i);
 	}
 	else if (i * i > n)
 	{
