@@ -4,7 +4,8 @@
  * _sqrt_recursion - return the sqrt of a natural number
  * @n: the natural number
  *
- * Return: sqrt 0 if not a natural number
+ *
+ * Return: sqrt 0 if not a natural
  */
 int _sqrt_recursion(int n)
 {
@@ -18,17 +19,17 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return (sqrt_result(n, 1));
+		return (sqrt_manual(n, 1));
 	}
 }
 /**
- * sqrt_result - calculate the result of the sqrt of a bumber
+ * sqrt_manual - calculate manualy the sqrt of a bumber
  * @n: the natural number
- * @i: number to be multiply
+ * @i: count or number to be multiplied
  *
  * Return: sqrt 0 if sqrt is not natural
  */
-int sqrt_result(int n, int i)
+int sqrt_manual(int n, int i)
 {
 	if (i * i == n)
 	{
@@ -40,6 +41,6 @@ int sqrt_result(int n, int i)
 	}
 	else
 	{
-		return (sqrt_result(n, i + 1));
+		return (sqrt_manual(n, i + 1));
 	}
 }
