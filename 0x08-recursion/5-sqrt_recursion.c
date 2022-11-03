@@ -40,6 +40,6 @@ int sqrt_result(int n, int i)
 	}
 	else
 	{
-		return (sqrt_result(n, i + i));
+		return (sqrt_result(n, i + 1));
 	}
 }
