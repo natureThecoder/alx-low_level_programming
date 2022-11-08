@@ -12,7 +12,6 @@ int countWords(char *str)
 	int words;
 
 	words = 0;
-
 	while (*str)
 	{
 		if (*str != ' ')
@@ -30,13 +29,11 @@ int countWords(char *str)
  * countChars - counts the numbers o characters in a string
  * @str: source string
  *
- *
  * Return: the number of words
  */
 int countChars(char *str)
 {
 	int chars;
-
 
 	chars = 0;
 	while (*str)
@@ -56,11 +53,8 @@ int countChars(char *str)
  * strtow - separates the character to an string of words.
  * @str: source string
  *
- *
  * Return: the pointer to the new array of words.
  */
-
-
 char **strtow(char *str)
 {
 	int numWords, numChars, i, j;
@@ -72,7 +66,6 @@ char **strtow(char *str)
 	numWords = countWords(str);
 	if (numWords == 0)
 		return (NULL);
-
 	words = (char **) malloc((numWords + 1) * sizeof(char *));
 	if (words == NULL)
 	{
@@ -105,4 +98,3 @@ char **strtow(char *str)
 	*(words + numWords) = NULL;
 	return (words);
 }
-
