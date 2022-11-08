@@ -38,7 +38,11 @@ int coincidence(char *a, char *b)
 	}
 
 	if (*b == '\0')
+	{
 		return (1);
+	}
 	else
+	{
 		return (0);
+	}
 }
