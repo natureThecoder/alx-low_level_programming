@@ -46,7 +46,7 @@ int countChars(char *str)
 			if (*(str + 1) != ' ' || *(str + 1) != '\0')
 				chars++;
 			str++;
-		{
+		}
 		else
 			break;
 	}
