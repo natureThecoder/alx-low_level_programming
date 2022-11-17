@@ -29,7 +29,6 @@ void print_all(const char * const format, ...)
 			break;
 		case 's':
 			str = va_arg(arguments, char *);
-			break;
 			if (str)
 			{
 				printf("%s", str);
