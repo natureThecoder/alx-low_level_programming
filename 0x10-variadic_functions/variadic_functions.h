@@ -2,6 +2,6 @@
 #define VARIADIC_FUNCTIONS_H
 
 int _putchar(char c);
-sum_them_all(const unsigned int n, ...);
+int sum_them_all(const unsigned int n, ...);
 
 #endif
