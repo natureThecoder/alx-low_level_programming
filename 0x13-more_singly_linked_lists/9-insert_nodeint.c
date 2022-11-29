@@ -1,4 +1,4 @@
-nclude "lists.h"
+#include "lists.h"
 /**
  * insert_nodeint_at_index -  insert a node in a idx position
  * @head: pointer to head in function
