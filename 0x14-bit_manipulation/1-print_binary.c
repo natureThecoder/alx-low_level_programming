@@ -4,7 +4,7 @@
 /**
  * print_binary - print an unsigned int in binary
  *
- * @n: 
+ * @n:
  *
  * Return: void
  */
