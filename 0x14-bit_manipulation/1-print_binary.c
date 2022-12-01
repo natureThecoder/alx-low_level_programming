@@ -1,27 +1,31 @@
 #include "main.h"
+#include <unistd.h>
+#include <limits.h>
 /**
- * print_binary - translate number to binary.
- * @n: the input number
- * Return: binary number started by one
+ * print_binary - print an unsigned int in binary
+ *
+ * @n: 
+ *
+ * Return: void
  */
 void print_binary(unsigned long int n)
 {
-	int i, j = 0;
-	unsigned long int temp, mask = 0;
+	unsigned long int printbit = 1ul << 63;
+	char c = '0';
 
-	if (n == 0)
-		_putchar('0');
-	temp = n;
+	while (!(printbit & n) && printbit != 0)
+		printbit = printbit >> 1;
 
-	for (j = 0; temp != 0; j++)/*Ignoring left-zeros*/
-		temp = temp >> 1;
+	if (printbit == 0)
+		write(1, &c, 1);
 
-	for (i = j - 1; i >= 0; i--)
+	while (printbit)
 	{
-		mask = 1 << i;/*Creating a mask for extract the digit*/
-		if ((n & mask) != 0)
-			_putchar('1');
+		if (printbit & n)
+			c = '1';
 		else
-			_putchar('0');
+			c = '0';
+		write(1, &c, 1);
+		printbit = printbit >> 1;
 	}
 }
