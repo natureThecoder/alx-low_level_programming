@@ -1,1 +1,1 @@
-writing a script that can run,compile and assemble c file
+readme for 0x0D-preprocessor
